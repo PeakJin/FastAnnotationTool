@@ -183,4 +183,5 @@ void OpnCV::write( cv::Mat dst, string filename, int nb_sample, string label, cv
 
 void OpnCV::close() {
   outfile.close();
+  std::cout << endl;
 };
